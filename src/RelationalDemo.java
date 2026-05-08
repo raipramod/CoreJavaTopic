@@ -9,5 +9,11 @@ public class RelationalDemo {
         else {
             System.out.println("Error");
         }
+
+        int d = 5;
+        int e = 7;
+        boolean output = d > e;
+
+        System.out.println(output);
     }
 }
