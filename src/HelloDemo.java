@@ -20,9 +20,9 @@ class Demos{
 public class HelloDemo {
     public static void main(String[] args) {
 
-        Demos d = new Demos();
-        d.playMusic();
-       int result = Integer.parseInt(d.addNum(20));
-        System.out.println(result);
+        Dog d = new Dog();
+       d.setName("Dog");
+
+        System.out.println(d.getName());
     }
 }
